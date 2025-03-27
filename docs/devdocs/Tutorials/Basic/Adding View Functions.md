@@ -72,7 +72,7 @@ contract WrappingERC20 is ERC20, Permissioned {
         // Make sure the sender has enough tokens.
         FHE.req(amount.lte(_encBalances[msg.sender]));
 
-        // Add to the balance of `to` and subract from the balance of `from`.
+        // Add to the balance of `to` and subtract from the balance of `from`.
         _encBalances[to] = _encBalances[to] + amount;
         _encBalances[msg.sender] = _encBalances[msg.sender] - amount;
     }
