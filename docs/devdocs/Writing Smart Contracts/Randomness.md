@@ -59,7 +59,7 @@ contract RandomLucky {
 }
 ```
 
-An adversary could could call the randomness consumer function, check the result of the random,
+An adversary could call the randomness consumer function, check the result of the random,
 and revert the transaction if that result were not favorable.
 
 In this case:
