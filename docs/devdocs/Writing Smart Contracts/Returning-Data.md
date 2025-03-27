@@ -42,7 +42,7 @@ The following JSON structure shows the components of the encrypted data returned
 }
 ```
 
-### Metamask Compatability
+### Metamask Compatibility
 
 The encryption schema and structure match the one used by Metamask's eth_decrypt function. 
 This means that we can consume sealed data directly from Metamask, which provides a more engaging experience for a dApp user. 
